@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  max-width: 100%;
+  height: 130vh;
+  background: #fff;
+}
+.nav-bar {
+  background-color: #550222;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.termos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 10vh;
+}
+
+.termos h1 {
+  font-size: 30pt;
+  color: #9c003c;
+  padding: 20px;
+}
+.termos h3 {
+  font-size: 15pt;
+  font-weight: 400;
+}
+.termos p {
+  padding: 10px;
+}
+.aviso {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 10vh;
+}
+.aviso h3 {
+  font-size: 15pt;
+  font-weight: 400;
+}
+.aviso h1 {
+  font-size: 30pt;
+  color: #9c003c;
+  padding: 20px;
+}
+
+.aviso p {
+  padding: 10px;
+}
+
+footer {
+  padding-top: 50px;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background: #24252a;
+  color: #fff;
+}
+
+.bottom .center {
+  padding: 30px;
+  font-size: 19px;
+  text-align: center;
+  justify-content: center;
+}
+.bottom .center span {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.logo-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*scrollbar*/
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #550222;
+}

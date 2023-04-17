@@ -1,0 +1,244 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+.esq-login-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #726c6e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.links {
+  position: absolute;
+  top: 20px;
+  align-items: flex-end;
+  margin-left: 80%;
+}
+.inicio {
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 1rem;
+}
+
+.main-cadastro {
+  width: 80%;
+  height: 80vh;
+  display: flex;
+}
+.form {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 7vh;
+  border-radius: 2rem;
+  box-shadow: 0px 20px 40px #1d010b91;
+}
+.top-header {
+  top: 10px;
+}
+.info-conta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  font-size: 20px;
+  margin-top: 0px;
+}
+.info-conta a {
+  color: #9c003c;
+  padding: 2px;
+}
+.form-header {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.titulo {
+  color: #000000;
+  margin-top: 40px;
+}
+.form-header h1::after {
+  content: "";
+  display: block;
+  width: 10.5rem;
+  height: 0.3rem;
+  background-color: #9c003c;
+  margin: 0 auto;
+  position: absolute;
+  border-radius: 10px;
+}
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.input-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.input-box input {
+  margin: 0.6rem 0;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.92rem;
+  border: solid 1px #9c003c;
+}
+
+.input-box input:focus-visible {
+  outline: 1px solid #000000;
+}
+.input-box label,
+.gender-title h6 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000000;
+}
+.input-box input::placeholder {
+  color: #000000be;
+}
+.genders {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.62rem;
+  padding: 0.5rem;
+}
+.gender-input {
+  display: flex;
+  align-items: center;
+}
+.gender-input input {
+  margin-left: 0.35rem;
+}
+.gender-input label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000000c0;
+}
+.continue-button button {
+  width: 100%;
+  margin-top: 2.5rem;
+  border: none;
+  background-color: #9c003c;
+  padding: 0.72rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.continue-button button:hover {
+  background-color: #9c003c8f;
+}
+.continue-button button a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+.bottom .center {
+  margin-top: 83vh;
+  padding: 7px;
+  font-size: 17px;
+  background: #24252a;
+  text-align: center;
+}
+.bottom .center span {
+  color: #fff;
+}
+.bottom .center a {
+  color: #9c003c;
+  font-size: 17px;
+  text-decoration: none;
+}
+.bottom .center a:hover {
+  text-decoration: underline;
+}
+
+.privacidade {
+  padding-top: 20px;
+  line-height: 1.5rem;
+  max-width: 450px;
+  justify-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #575963;
+}
+.privacidade a {
+  color: #9c003c;
+}
+@media screen and (max-width: 2000px) {
+  .container {
+    width: 50%;
+  }
+  .form {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  .esq-login-image {
+    display: none;
+  }
+  .container {
+    width: 60%;
+  }
+  .form {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1064px) {
+  .container {
+    max-width: 100%;
+    height: auto;
+  }
+  .form {
+    display: block;
+    justify-content: center;
+    height: 100vh;
+    max-width: 100%;
+  }
+  .form-header {
+    width: 30vh;
+  }
+  .links {
+    width: 15vh;
+    right: 20px;
+  }
+  .inputs {
+    flex-direction: column;
+    overflow-x: hidden;
+    flex-wrap: nowrap;
+    max-height: 20rem;
+    max-width: 30rem;
+  }
+  .gender-inputs {
+    margin-top: 2rem;
+  }
+  .genders {
+    flex-direction: column;
+  }
+  .gender-input {
+    margin-top: 0.5rem;
+  }
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #9c003c;
+  }
+}
