@@ -137,6 +137,9 @@
   .dir-login {
     width: 200vh;
   }
+  .card-login {
+    width: 90vw;
+  }
   .esq-login {
     display: none;
   }
