@@ -531,6 +531,7 @@ footer {
     display: none;
   }
   .grid-text h1 {
+    width: 500px;
     font-size: 35px;
   }
   .grid-text h2 {
