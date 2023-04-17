@@ -100,14 +100,15 @@ header {
 
 /*conteúdo*/
 .wrapper {
-  position: absolute;
+  position: fixed;
+  z-index: 999;
   bottom: 30px;
-  left: 30px;
   background: #fff;
   color: #000000;
   max-width: 365px;
   border-radius: 15px;
   text-align: center;
+  visibility: visible;
   padding: 25px 25px 30px 25px;
 }
 .wrapper.hide {
